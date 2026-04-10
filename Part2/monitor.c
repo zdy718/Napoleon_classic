@@ -3,9 +3,7 @@
 #include <semaphore.h>
 #include "monitor.h"
 
-// -------------------------------------------------------
-// Monitor state
-// -------------------------------------------------------
+
 static sem_t entryQueue;
 static CV    stylistAvailable;
 static CV    customerAvailable;
@@ -18,9 +16,7 @@ static int salonEmptyCount = 0;  // times stylist went to sleep
 
 static int chairs[CHAIRS];       // chairs[i] = 1 occupied, 0 empty
 
-// -------------------------------------------------------
-// mon_init — call once from main() before threads start
-// -------------------------------------------------------
+
 void mon_init(void) {
     sem_init(&entryQueue, 0, 1);
 
@@ -34,9 +30,7 @@ void mon_init(void) {
         chairs[i] = 0;
 }
 
-// -------------------------------------------------------
-// CV operations
-// -------------------------------------------------------
+
 int cv_count(CV *cv) {
     return cv->count;
 }
@@ -61,10 +55,7 @@ void cv_signal(CV *cv) {
     }
 }
 
-// -------------------------------------------------------
-// mon_checkCustomer — called by stylist
-// Signals ready, sleeps if no customers, then takes one
-// -------------------------------------------------------
+
 void mon_checkCustomer(void) {
     sem_wait(&entryQueue);  // enter monitor
 
@@ -85,11 +76,7 @@ void mon_checkCustomer(void) {
     sem_post(&entryQueue);  // exit monitor
 }
 
-// -------------------------------------------------------
-// mon_checkStylist — called by customer
-// Sits in chair if available, waits for stylist if busy
-// Returns 1 if got haircut appointment, 0 if salon full
-// -------------------------------------------------------
+
 int mon_checkStylist(void) {
     sem_wait(&entryQueue);  // enter monitor
 
@@ -120,10 +107,7 @@ int mon_checkStylist(void) {
     return status;
 }
 
-// -------------------------------------------------------
-// mon_recordHaircut — called by stylist after cutting hair
-// Increments haircut counter inside the monitor
-// -------------------------------------------------------
+
 int mon_recordHaircut(void) {
     sem_wait(&entryQueue);
     haircuts++;
@@ -132,9 +116,7 @@ int mon_recordHaircut(void) {
     return total;
 }
 
-// -------------------------------------------------------
-// mon_debugPrint — prints monitor state (inside monitor)
-// -------------------------------------------------------
+
 void mon_debugPrint(void) {
     sem_wait(&entryQueue);  // enter monitor
 
