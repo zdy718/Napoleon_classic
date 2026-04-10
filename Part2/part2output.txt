@@ -1,0 +1,1436 @@
+Sleeping Stylist Simulation (Monitor)
+Customers: 75 | Chairs: 6
+
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 0
+Salon full = 0 times
+Salon empty = 0 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 1)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 0
+Salon full = 0 times
+Salon empty = 1 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 1] Getting haircut!
+[CUSTOMER 1] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 1
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 1
+Salon full = 0 times
+Salon empty = 1 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 2)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 1
+Salon full = 0 times
+Salon empty = 2 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 2] Getting haircut!
+[CUSTOMER 2] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 2
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 2
+Salon full = 0 times
+Salon empty = 2 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 3)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 2
+Salon full = 0 times
+Salon empty = 3 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 3] Getting haircut!
+[CUSTOMER 3] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 3
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 3
+Salon full = 0 times
+Salon empty = 3 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 4)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 3
+Salon full = 0 times
+Salon empty = 4 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 4] Getting haircut!
+[CUSTOMER 4] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 4
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 4
+Salon full = 0 times
+Salon empty = 4 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 5)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 4
+Salon full = 0 times
+Salon empty = 5 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 5] Getting haircut!
+[CUSTOMER 5] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 5
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 5
+Salon full = 0 times
+Salon empty = 5 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 6)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 5
+Salon full = 0 times
+Salon empty = 6 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 6] Getting haircut!
+[CUSTOMER 6] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 6
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 6
+Salon full = 0 times
+Salon empty = 6 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 7)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 6
+Salon full = 0 times
+Salon empty = 7 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 7] Getting haircut!
+[CUSTOMER 7] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 7
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 7
+Salon full = 0 times
+Salon empty = 7 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 8)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 7
+Salon full = 0 times
+Salon empty = 8 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 8] Getting haircut!
+[CUSTOMER 8] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 8
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 8
+Salon full = 0 times
+Salon empty = 8 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 9)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 8
+Salon full = 0 times
+Salon empty = 9 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 9] Getting haircut!
+[CUSTOMER 9] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 9
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 9
+Salon full = 0 times
+Salon empty = 9 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 10)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 9
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 10] Getting haircut!
+[CUSTOMER 10] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 9
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 0 | 0 | 0 | 0 | 0 | => 1
+Given haircuts = 9
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 10
+| 1 | 1 | 0 | 0 | 0 | 0 | => 2
+Given haircuts = 10
+Salon full = 0 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 11] Getting haircut!
+[CUSTOMER 11] Done. Leaving salon.
+| 1 | 0 | 0 | 0 | 0 | 0 | => 1
+Given haircuts = 10
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 0 | 0 | 0 | 0 | => 2
+Given haircuts = 10
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 11
+| 1 | 1 | 1 | 0 | 0 | 0 | => 3
+Given haircuts = 11
+Salon full = 0 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 12] Getting haircut!
+[CUSTOMER 12] Done. Leaving salon.
+| 1 | 1 | 0 | 0 | 0 | 0 | => 2
+Given haircuts = 11
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 0 | 0 | 0 | => 3
+Given haircuts = 11
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 11
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 12
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 12
+Salon full = 0 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 13] Getting haircut!
+[CUSTOMER 13] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 12
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 12
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 13
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 13
+Salon full = 0 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 14] Getting haircut!
+[CUSTOMER 14] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 13
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 13
+Salon full = 0 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 1)
+[CUSTOMER 21] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 13
+Salon full = 1 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 2)
+[CUSTOMER 22] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 14
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 14
+Salon full = 2 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 15] Getting haircut!
+[CUSTOMER 15] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 14
+Salon full = 2 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 14
+Salon full = 2 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 3)
+[CUSTOMER 24] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 15
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 15
+Salon full = 3 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 16] Getting haircut!
+[CUSTOMER 16] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 15
+Salon full = 3 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 15
+Salon full = 3 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 4)
+[CUSTOMER 26] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 15
+Salon full = 4 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 5)
+[CUSTOMER 27] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 16
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 16
+Salon full = 5 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 17] Getting haircut!
+[CUSTOMER 17] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 16
+Salon full = 5 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 16
+Salon full = 5 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 6)
+[CUSTOMER 29] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 17
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 17
+Salon full = 6 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 18] Getting haircut!
+[CUSTOMER 18] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 17
+Salon full = 6 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 17
+Salon full = 6 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 7)
+[CUSTOMER 31] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 17
+Salon full = 7 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 8)
+[CUSTOMER 32] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 18
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 18
+Salon full = 8 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 19] Getting haircut!
+[CUSTOMER 19] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 18
+Salon full = 8 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 18
+Salon full = 8 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 9)
+[CUSTOMER 34] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 19
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 19
+Salon full = 9 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 20] Getting haircut!
+[CUSTOMER 20] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 19
+Salon full = 9 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 19
+Salon full = 9 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 10)
+[CUSTOMER 36] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 19
+Salon full = 10 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 11)
+[CUSTOMER 37] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 20
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 20
+Salon full = 11 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 23] Getting haircut!
+[CUSTOMER 23] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 20
+Salon full = 11 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 20
+Salon full = 11 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 12)
+[CUSTOMER 39] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 21
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 21
+Salon full = 12 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 25] Getting haircut!
+[CUSTOMER 25] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 21
+Salon full = 12 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 21
+Salon full = 12 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 13)
+[CUSTOMER 41] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 21
+Salon full = 13 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 14)
+[CUSTOMER 42] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 22
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 22
+Salon full = 14 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 28] Getting haircut!
+[CUSTOMER 28] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 22
+Salon full = 14 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 22
+Salon full = 14 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 15)
+[CUSTOMER 44] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 23
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 23
+Salon full = 15 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 30] Getting haircut!
+[CUSTOMER 30] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 23
+Salon full = 15 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 23
+Salon full = 15 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 16)
+[CUSTOMER 21] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 23
+Salon full = 16 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 17)
+[CUSTOMER 46] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 23
+Salon full = 17 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 18)
+[CUSTOMER 22] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 23
+Salon full = 18 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 19)
+[CUSTOMER 47] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 24
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 24
+Salon full = 19 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 33] Getting haircut!
+[CUSTOMER 33] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 24
+Salon full = 19 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 24
+Salon full = 19 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 20)
+[CUSTOMER 24] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 24
+Salon full = 20 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 21)
+[CUSTOMER 49] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 25
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 25
+Salon full = 21 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 35] Getting haircut!
+[CUSTOMER 35] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 25
+Salon full = 21 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 25
+Salon full = 21 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 22)
+[CUSTOMER 26] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 25
+Salon full = 22 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 23)
+[CUSTOMER 27] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 26
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 26
+Salon full = 23 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 38] Getting haircut!
+[CUSTOMER 38] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 26
+Salon full = 23 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 27
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 27
+Salon full = 23 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 40] Getting haircut!
+[CUSTOMER 40] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 27
+Salon full = 23 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 27
+Salon full = 23 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 24)
+[CUSTOMER 32] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 28
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 28
+Salon full = 24 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 43] Getting haircut!
+[CUSTOMER 43] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 28
+Salon full = 24 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 29
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 29
+Salon full = 24 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 45] Getting haircut!
+[CUSTOMER 45] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 29
+Salon full = 24 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 29
+Salon full = 24 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 25)
+[CUSTOMER 37] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 30
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 30
+Salon full = 25 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 48] Getting haircut!
+[CUSTOMER 48] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 30
+Salon full = 25 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 30
+Salon full = 25 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 26)
+[CUSTOMER 51] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 31
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 31
+Salon full = 26 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 50] Getting haircut!
+[CUSTOMER 50] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 31
+Salon full = 26 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 31
+Salon full = 26 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 27)
+[CUSTOMER 42] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 32
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 32
+Salon full = 27 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 29] Getting haircut!
+[CUSTOMER 29] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 32
+Salon full = 27 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 33
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 33
+Salon full = 27 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 31] Getting haircut!
+[CUSTOMER 31] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 33
+Salon full = 27 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 33
+Salon full = 27 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 28)
+[CUSTOMER 46] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 33
+Salon full = 28 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 29)
+[CUSTOMER 22] Going shopping...
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 33
+Salon full = 29 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 30)
+[CUSTOMER 47] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 34
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 34
+Salon full = 30 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 34] Getting haircut!
+[CUSTOMER 34] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 34
+Salon full = 30 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 34
+Salon full = 30 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 31)
+[CUSTOMER 49] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 35
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 35
+Salon full = 31 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 36] Getting haircut!
+[CUSTOMER 36] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 35
+Salon full = 31 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 35
+Salon full = 31 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 32)
+[CUSTOMER 27] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 36
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 36
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 39] Getting haircut!
+[CUSTOMER 39] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 36
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 37
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 37
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 41] Getting haircut!
+[CUSTOMER 41] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 37
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 38
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 38
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 44] Getting haircut!
+[CUSTOMER 44] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 39
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 39
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 21] Getting haircut!
+[CUSTOMER 21] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 39
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 40
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 40
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 24] Getting haircut!
+[CUSTOMER 24] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 40
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 41
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 41
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 26] Getting haircut!
+[CUSTOMER 26] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 41
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 42
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 42
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 52] Getting haircut!
+[CUSTOMER 52] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 42
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 43
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 43
+Salon full = 32 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 32] Getting haircut!
+[CUSTOMER 32] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 43
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 43
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 43
+Salon full = 32 times
+Salon empty = 10 times
+
+[CUSTOMER] Salon FULL (6/6 chairs). Will try again. (Full count: 33)
+[CUSTOMER 47] Going shopping...
+[STYLIST] Finished cutting hair. Total haircuts: 44
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 44
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 37] Getting haircut!
+[CUSTOMER 37] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 44
+Salon full = 33 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 45
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 45
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 51] Getting haircut!
+[CUSTOMER 51] Done. Leaving salon.
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 45
+Salon full = 33 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 46
+| 1 | 1 | 1 | 1 | 1 | 1 | => 6
+Given haircuts = 46
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 42] Getting haircut!
+[CUSTOMER 42] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 47
+| 1 | 1 | 1 | 1 | 1 | 0 | => 5
+Given haircuts = 47
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 53] Getting haircut!
+[CUSTOMER 53] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 48
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 48
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 46] Getting haircut!
+[CUSTOMER 46] Done. Leaving salon.
+| 1 | 1 | 1 | 0 | 0 | 0 | => 3
+Given haircuts = 48
+Salon full = 33 times
+Salon empty = 10 times
+
+[CUSTOMER] Stylist not ready. Waiting on stylistAvailable CV.
+[STYLIST] Finished cutting hair. Total haircuts: 49
+| 1 | 1 | 1 | 1 | 0 | 0 | => 4
+Given haircuts = 49
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 22] Getting haircut!
+[CUSTOMER 22] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 50
+| 1 | 1 | 1 | 0 | 0 | 0 | => 3
+Given haircuts = 50
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 49] Getting haircut!
+[CUSTOMER 49] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 51
+| 1 | 1 | 0 | 0 | 0 | 0 | => 2
+Given haircuts = 51
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 27] Getting haircut!
+[CUSTOMER 27] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 52
+| 1 | 0 | 0 | 0 | 0 | 0 | => 1
+Given haircuts = 52
+Salon full = 33 times
+Salon empty = 10 times
+
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 54] Getting haircut!
+[CUSTOMER 54] Done. Leaving salon.
+[STYLIST] Finished cutting hair. Total haircuts: 53
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 53
+Salon full = 33 times
+Salon empty = 10 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 11)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 53
+Salon full = 33 times
+Salon empty = 11 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 47] Getting haircut!
+[CUSTOMER 47] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 54
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 54
+Salon full = 33 times
+Salon empty = 11 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 12)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 54
+Salon full = 33 times
+Salon empty = 12 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 55] Getting haircut!
+[CUSTOMER 55] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 55
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 55
+Salon full = 33 times
+Salon empty = 12 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 13)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 55
+Salon full = 33 times
+Salon empty = 13 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 56] Getting haircut!
+[CUSTOMER 56] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 56
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 56
+Salon full = 33 times
+Salon empty = 13 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 14)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 56
+Salon full = 33 times
+Salon empty = 14 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 57] Getting haircut!
+[CUSTOMER 57] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 57
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 57
+Salon full = 33 times
+Salon empty = 14 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 15)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 57
+Salon full = 33 times
+Salon empty = 15 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 58] Getting haircut!
+[CUSTOMER 58] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 58
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 58
+Salon full = 33 times
+Salon empty = 15 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 16)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 58
+Salon full = 33 times
+Salon empty = 16 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 59] Getting haircut!
+[CUSTOMER 59] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 59
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 59
+Salon full = 33 times
+Salon empty = 16 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 17)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 59
+Salon full = 33 times
+Salon empty = 17 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 60] Getting haircut!
+[CUSTOMER 60] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 60
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 60
+Salon full = 33 times
+Salon empty = 17 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 18)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 60
+Salon full = 33 times
+Salon empty = 18 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 61] Getting haircut!
+[CUSTOMER 61] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 61
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 61
+Salon full = 33 times
+Salon empty = 18 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 19)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 61
+Salon full = 33 times
+Salon empty = 19 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 62] Getting haircut!
+[CUSTOMER 62] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 62
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 62
+Salon full = 33 times
+Salon empty = 19 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 20)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 62
+Salon full = 33 times
+Salon empty = 20 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 63] Getting haircut!
+[CUSTOMER 63] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 63
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 63
+Salon full = 33 times
+Salon empty = 20 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 21)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 63
+Salon full = 33 times
+Salon empty = 21 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 64] Getting haircut!
+[CUSTOMER 64] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 64
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 64
+Salon full = 33 times
+Salon empty = 21 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 22)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 64
+Salon full = 33 times
+Salon empty = 22 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 65] Getting haircut!
+[CUSTOMER 65] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 65
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 65
+Salon full = 33 times
+Salon empty = 22 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 23)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 65
+Salon full = 33 times
+Salon empty = 23 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 66] Getting haircut!
+[CUSTOMER 66] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 66
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 66
+Salon full = 33 times
+Salon empty = 23 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 24)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 66
+Salon full = 33 times
+Salon empty = 24 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 67] Getting haircut!
+[CUSTOMER 67] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 67
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 67
+Salon full = 33 times
+Salon empty = 24 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 25)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 67
+Salon full = 33 times
+Salon empty = 25 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 68] Getting haircut!
+[CUSTOMER 68] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 68
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 68
+Salon full = 33 times
+Salon empty = 25 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 26)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 68
+Salon full = 33 times
+Salon empty = 26 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 69] Getting haircut!
+[CUSTOMER 69] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 69
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 69
+Salon full = 33 times
+Salon empty = 26 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 27)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 69
+Salon full = 33 times
+Salon empty = 27 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 70] Getting haircut!
+[CUSTOMER 70] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 70
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 70
+Salon full = 33 times
+Salon empty = 27 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 28)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 70
+Salon full = 33 times
+Salon empty = 28 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 71] Getting haircut!
+[CUSTOMER 71] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 71
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 71
+Salon full = 33 times
+Salon empty = 28 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 29)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 71
+Salon full = 33 times
+Salon empty = 29 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 72] Getting haircut!
+[CUSTOMER 72] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 72
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 72
+Salon full = 33 times
+Salon empty = 29 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 30)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 72
+Salon full = 33 times
+Salon empty = 30 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 73] Getting haircut!
+[CUSTOMER 73] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 73
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 73
+Salon full = 33 times
+Salon empty = 30 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 31)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 73
+Salon full = 33 times
+Salon empty = 31 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 74] Getting haircut!
+[CUSTOMER 74] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 74
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 74
+Salon full = 33 times
+Salon empty = 31 times
+
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: 32)
+| 0 | 0 | 0 | 0 | 0 | 0 | => 0
+Given haircuts = 74
+Salon full = 33 times
+Salon empty = 32 times
+
+[CUSTOMER] Got stylist. Proceeding to chair.
+[CUSTOMER 75] Getting haircut!
+[CUSTOMER 75] Done. Leaving salon.
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+[STYLIST] Finished cutting hair. Total haircuts: 75
+
+=Simulation complete

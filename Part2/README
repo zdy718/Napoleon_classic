@@ -1,0 +1,61 @@
+# Part 2 — Sleeping Stylist with Monitor
+
+## Group Members
+- Zhen Keat Chua
+- Zi Dane Yan
+
+## How to Compile and Run
+
+```bash
+make
+./sleepingStylistMon
+```
+
+## What to Observe
+
+### Signal-and-Continue Discipline
+The key proof is in the output. After a thread is woken by `cv_signal`, it prints:
+
+```
+[CV] Thread resumed after cv_wait — re-entered monitor (signal-and-continue)
+```
+
+This line appears AFTER the signaler has already continued running and released
+the monitor — NOT immediately when the signal is sent. This confirms signal-and-continue:
+the signaler keeps going, and the woken thread must re-compete for the monitor lock.
+
+If this were signal-and-wait, the signaler would have paused and the woken thread
+would have run immediately inside the monitor. That does NOT happen here.
+
+### Salon Empty (Stylist Sleeping)
+Look for:
+```
+[STYLIST] Salon empty. Stylist going to sleep. (Empty count: X)
+```
+Each occurrence increments the "Salon empty" counter visible in mon_debugPrint output.
+
+### Salon Full
+Look for:
+```
+[CUSTOMER X] Salon FULL (6/6 chairs). Will try again. (Full count: X)
+```
+
+### Debug Print Consistency
+The chair grid printed by mon_debugPrint:
+```
+| 1 | 1 | 1 | 0 | 0 | 0 | => 3
+```
+The number of 1s should always match the `=> N` count. This confirms the
+chair array and customerCount variable stay in sync.
+
+### No Starvation
+All 75 customers will eventually print:
+```
+[CUSTOMER X] Done. Leaving salon.
+```
+
+## Time Spent
+Approximately 20 hours.
+
+## Challenge Level
+5 / 5

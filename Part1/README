@@ -1,0 +1,36 @@
+# Part 1 — Sleeping Stylist with Semaphores
+
+## Group Members
+- Zhen Keat Chua
+- Zi Dane Yan
+
+## How to Compile and Run
+
+```bash
+make
+./sleepingStylistSem
+```
+
+## What to Observe
+
+- **Salon empty:** Look for lines like `[STYLIST] Salon empty. Stylist going to sleep.`
+  This shows the stylist correctly blocks when no customers are present.
+
+- **Salon filling up:** Watch `Chairs occupied: X/6` increment as customers arrive.
+
+- **Salon full:** Look for `[CUSTOMER X] Salon FULL` — the customer leaves to shop and retries.
+
+- **Consistency check:** The `Chairs occupied` number printed by each customer should
+  always be between 1 and 6. It should never exceed 6, which confirms the mutex is
+  working correctly around the `waiting` counter.
+
+- **No starvation:** Every one of the 75 customers will eventually print
+  `[CUSTOMER X] Getting haircut!` — confirming no starvation.
+
+- **Final count:** At the end, `Total haircuts given: 75` confirms all customers were served.
+
+## Time Spent
+Approximately 12 hours.
+
+## Challenge Level
+5 / 5
